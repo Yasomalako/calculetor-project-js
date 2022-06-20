@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+.main_div_calcul{
+    width:25% ;
+    border: 5px solid ;
+    text-align: end ;
+}
+
+.input_calculat{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+button{
+    padding: 1px;
+    font-size: 20px;
+    transition: all 0.8s;
+    
+}
+.big_button{
+    background-color: orange;
+}
+.output_scrin_display{
+     width: 100%;
+     height: 40vh;
+     color: aliceblue;
+     background-color: black;
+}
+.output_lastcalculation{
+font-size: 30px;
+padding: 5px;
+}
+.output_resulte{
+    font-size: 18px;
+    padding: 25px;
+    color: aliceblue;
+}
